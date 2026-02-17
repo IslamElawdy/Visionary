@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CameraInspector.Core\CameraInspector.Core.csproj" />
+    <ProjectReference Include="..\CameraInspector.Providers.Zivid\CameraInspector.Providers.Zivid.csproj" />
+    <ProjectReference Include="..\CameraInspector.Providers.RealSense\CameraInspector.Providers.RealSense.csproj" />
+    <ProjectReference Include="..\CameraInspector.Providers.Generic\CameraInspector.Providers.Generic.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

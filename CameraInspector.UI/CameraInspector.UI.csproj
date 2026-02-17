@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CameraInspector.Core\CameraInspector.Core.csproj" />
+    <ProjectReference Include="..\CameraInspector.Providers.Zivid\CameraInspector.Providers.Zivid.csproj" />
+    <ProjectReference Include="..\CameraInspector.Providers.RealSense\CameraInspector.Providers.RealSense.csproj" />
+    <ProjectReference Include="..\CameraInspector.Providers.Generic\CameraInspector.Providers.Generic.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+</Project>
